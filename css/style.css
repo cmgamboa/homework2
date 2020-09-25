@@ -1,105 +1,68 @@
-/*STARTER CODE*/
-
-/*
-We have started some of the selectors for you.
-For others we have provided hints on what the selectors should be.
-There are some missing selectors.
-
-Make sure to learn what the starter code does!!
-*/
 
 body{
-  font-size: 16px;
-  margin: 1.2em;
-  font-family: 'Andika', sans-serif;
-  background-size: cover ;
-  background-position: center;
-  background-image: url("../images/pigeon-background.JPEG");
-  background-color: #DDDDDD;
-}
+	background-color: #000000;
+	color: #FFFFFF;
+	font-family: Lucida Grande, sans-serif; 
 
-main{
-  margin-bottom: 100px;
 }
 
 h1{
-  color: #B21F50;
-  font-size: 2em;
-  text-align: center;
-  line-height: 2;
-
+	text-align: center;
+	font-size: 64px;
 }
 
-caption{
-  margin:5px 0px;
+h2{
+	font-size: 30px;
+	text-shadow: 5px 5px 2px #808080;
 }
 
-p{
-  padding-top: 15px;
+p {
+	font-size: 24px;
+	padding-top: 20px;
 }
 
-a{
-font-size: 16px; 
-color: #C12258;
-text-decoration-line: underline;
-text-decoration-style: wavy; 
+
+img{
+	display:block;
+	margin: auto;
+	padding: 10px;
+	width: 525px;
 }
-html, body{
-  width: 100%
+div{
+	min-height: 150px;
+	padding: 25px;
 }
-table{
-    border: 2px solid #000000;
-    margin: 0 auto;
-}
-table.center {
-  margin-left:auto;
-  margin-right:auto;
+#red{
+	background-color:#ff0000;
+	text-align: right;
 }
 
-.colhead{
-  min-width: 125px;
-  padding: 10px;
-  background-color: #7e0820;
-  color: #FFFFFF;
-  text-transform: uppercase;
-  
+#blue{
+	background-color: #0000FF;
+	text-align: left; 
 }
 
-.rowhead{
-  border: 2px solid #000000; 
+#yellow {
+	background-color: #FFFF00;
+	text-align: right;
+	color: #000000; 
 
+	
 }
 
-td{
-  text-align: center;
-  border-top: 2px solid #000000;
-  padding: 10px;
+#yellow h2{
+	text-shadow: 5px 5px 2px #c7e2c7
 }
 
-tr:nth-child(even){
-  background-color: #D1D1D1;
+#green{
+	background-color: #008000;
+	text-align: left;
 }
 
-tr:hover {
-  background: rgba(126, 8, 32, .25)
+footer p {
+	text-align: right;
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 0px;
+	padding-top: 0px;
 }
- 
-
-*:focus{
-  border: 3px dashed #417243;
-
-}
-
-thead tr:first-child th:first-child{}
-
-footer{
-  background:#000000;
-  text-align:center;
-  color: #FFFFFF;
-  position:fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 75px;
-}
-
